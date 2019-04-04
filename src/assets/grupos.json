@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Radiohead",
+    "image":"https://i.imgur.com/9pPsnwz.jpg",
+    "albums": [
+      { "id":1,
+        "title": "The King of Limbs"     
+      },
+      {
+        "id":2,
+        "title": "OK Computer"      
+      }
+    ]
+  },
+  {
+    "name": "Portishead",
+    "image":"https://i.imgur.com/4W5K7eW.jpg",
+    "albums": [
+      {
+        "id":3,
+        "title": "Dummy"       
+      },
+      {
+        "id":4,
+        "title": "Third"       
+      }
+    ]
+  }
+]

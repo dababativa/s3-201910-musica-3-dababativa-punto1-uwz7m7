@@ -1,0 +1,14 @@
+<p>
+grupo-list works!
+</p>
+<div class="container fluid" >
+  <div class="row">
+    <div class="card col-3 m-3" style="width: 18rem;" *ngFor="let g of listGrupos">
+  <img src="{{g.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title bg-primary">{{g.name}}</h5>
+    <div  *ngFor="let a of g.albums"><a class="card-text">{{a.title}}</a></div>
+  </div>
+  </div>
+</div>
+</div>
